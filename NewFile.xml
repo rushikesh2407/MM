@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="Nopackage" >
+    <classes>
+       <class name="PR_api.issueToPr_updatestockApi" />
+       <class name="PR_api.DeletePR" />
+       <class name="PR_api.DeletePrMaterialApi" />
+       <class name="PR_api.indent_issueQty_materialID" />
+       <class name="PR_api.indent_list_projectID" />
+       <class name="PR_api.pr_list_materialID" />
+       <class name="PR_api.prExcelDownload" />
+       <class name="PR_api.view_issueToPrRemark_api" />
+       <class name="RFP_api.DeleteRfp_api" />
+       <class name="TradeFliter.tradeFliter" />
+       
+       
+       
+       
+       
+    </classes>
+  </test>
+</suite>
+  
